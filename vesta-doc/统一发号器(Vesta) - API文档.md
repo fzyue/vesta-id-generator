@@ -23,7 +23,7 @@
 
 - 描述：对产生的ID进行反解，在响应体内返回反解的JSON字符串。
 - 路径：/expid
-- 参数：id=？
+- 参数：id=?
 - 非空参数：id
 - 示例：http://localhost:8080/expid?id=3456526092514361344
 - 结果：{"genMethod":2,"machine":1022,"seq":0,"time":12758739,"type":0,"version":0}
